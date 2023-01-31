@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+.image-card {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.sub-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 30vw;
+  height: 50vh;
+}
+.btn {
+  background-color: #007bff;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+}
